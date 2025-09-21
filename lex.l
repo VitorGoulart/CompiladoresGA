@@ -14,7 +14,7 @@ string      \"[^"]*\"
 operator    [-+*/=]
 separator   [;,]
 relop       ([<>](=)?)|(==)
-logop       (&&)|(\|\|)|(!)
+logop       (&&)|(\|\|)|(!=)
 
 
 
