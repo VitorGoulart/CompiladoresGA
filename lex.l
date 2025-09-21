@@ -23,7 +23,7 @@ logop       (&&)|(\|\|)|(!=)
 
 {ws}        {}
 {newline}   {++line;}
-"if"        {printf("KEYWORD(if\n)");}
+"if"        {printf("KEYWORD(if)\n");}
 "else"      {printf("KEYWORD(else)\n");}
 "while"     {printf("KEYWORD(while)\n");}
 "int"       {printf("KEYWORD(int)\n");}
